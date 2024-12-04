@@ -462,7 +462,7 @@ class SymptomaticDiseaseModel:
 		return indicators
 
 
-	def PredictAffectedStatus(self,TargetIndex,PrevalencePriorCI=None,PrevalenceDistributionParameters=None,usePenetranceModel=False,CI=0.99):
+	def PredictExpression(self,TargetIndex,PrevalencePriorCI=None,PrevalenceDistributionParameters=None,usePenetranceModel=False,CI=0.99):
 		"""Summary
 		
 		Args:
