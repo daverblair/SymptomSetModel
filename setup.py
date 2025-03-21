@@ -26,12 +26,9 @@ setuptools.setup(
         'numpy',
         'pandas',
         'scipy',
-        'torch',
         'PiecewiseBeta',
         'vlpi',
         'scikit-learn',
-        'pytorch-minimize',
-        'tensordict'
         ],
     classifiers=[
         "Programming Language :: Python :: 3",
